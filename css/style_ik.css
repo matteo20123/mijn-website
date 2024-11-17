@@ -1,0 +1,59 @@
+style>
+
+.navbar {
+    color: white; /* White text color */
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Space between links */
+    padding: 10px 20px; /* Spacing around the navbar */
+    font-family: Arial, sans-serif;
+  }
+
+  /* Styles for navigation links */
+  .navbar a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+
+  /* Hover effect for links */
+  .navbar a:hover {
+    color: #4dcaf8; /* Change text color to blue when hovered */
+  }
+
+body {
+    background-color: #1F2833;
+}
+
+
+  /* Container voor de inhoud */
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Stijl voor de kop */
+  h1 {
+    text-align: center;
+    color: #66fcf1
+  }
+
+  /* Foto stijl */
+  .profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px auto;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+

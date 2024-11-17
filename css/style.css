@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #1F2833;
+    color: white; /* White text color */
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Space between links */
+    padding: 10px 20px; /* Spacing around the navbar */
+    font-family: Arial, sans-serif;
+  }
+
+  /* Styles for navigation links */
+  .navbar a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+
+  /* Hover effect for links */
+  .navbar a:hover {
+    color: #4dcaf8; /* Change text color to blue when hovered */
+  }
+
+body {
+    color: #1F2833;
+}

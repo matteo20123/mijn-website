@@ -1,0 +1,91 @@
+style>
+
+
+          
+          .container {
+              width: 80%;
+              max-width: 1200px;
+              margin: 0 auto;
+              text-align: center;
+              color:#392e5d
+          }
+          h1 {
+              font-size: 36px;
+              margin-bottom: 30px;
+              text-align: center;
+              color: #66fcf1
+          }
+          .project {
+              display: flex;
+              align-items: center;
+              margin-bottom: 30px;
+              background-color: rgb(255, 255, 255);
+              padding: 20px;
+              border-radius: 8px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             color: rgb(42, 60, 166);
+             text-align: center;
+             transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+             cursor: pointer; /* Makes it look clickable */
+    }
+    .project:hover {
+        background-color: #2ecc71; /* Hover color (green) */
+        transform: scale(1.1); /* Slightly enlarge the box */
+      }
+          
+          .project:nth-child(odd) {
+              flex-direction: row-reverse; 
+          }
+          .project-image {
+              width: 50%;
+              height: 200px;
+              background-color: #ddd;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 4px;
+          }
+          .project-image img {
+              width: 80px;
+              height: 80px;
+              opacity: 0.5;
+          }
+          .project-content {
+              width: 50%;
+              padding: 0 20px;
+              text-align: left;
+          }
+          .project-content h2 {
+              font-size: 24px;
+              margin-bottom: 10px;
+          }
+          .project-content p {
+              color: #666;
+              font-size: 14px;
+          }
+          .navbar {
+            color: white; /* White text color */
+            display: flex; /* Align items horizontally */
+            justify-content: space-between; /* Space between links */
+            padding: 10px 20px; /* Spacing around the navbar */
+            font-family: Arial, sans-serif;
+          }
+      
+          /* Styles for navigation links */
+          .navbar a {
+            color: white; /* White text for links */
+            text-decoration: none; /* Remove underline */
+            margin: 0 15px; /* Spacing between links */
+            font-size: 16px;
+            transition: color 0.3s ease; /* Smooth hover effect */
+          }
+      
+          /* Hover effect for links */
+          .navbar a:hover {
+            color: #4dcaf8; /* Change text color to blue when hovered */
+          }
+
+          body {
+            background-color: #1F2833;
+        }
+
